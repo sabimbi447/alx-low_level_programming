@@ -2,14 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-
-
 /**
  *main - prints a random number and state whether
  *	  it's positive, negative or zero.
  *Return: Always 0.
  */
-
 int main(void)
 {
 int n;
