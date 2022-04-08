@@ -4,7 +4,11 @@
 
 
 
-/* betty style doc for function main goes there */
+/**
+ *main - prints a random number and state whether
+ *	  it's positive, negative or zero.
+ *Return: Always 0.
+ */
 int main(void)
 {
 int n;
