@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * Main- Print the last digit of a random digit
- *	  print the digit when is greater than 5
- *	  print the digit when is 0
- *	  print the digit when is less than 6 and not 0.
+ * Main- entry point
+ *
+ * Description: Prints a number and it's last digit along with whether its
+ * last digit is 0, greater than 5, or less than 6 and not 0.
  * Return: 0.
  */
 int main(void)
