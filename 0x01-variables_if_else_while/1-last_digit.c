@@ -10,6 +10,8 @@
  *
  * Return: Always 0 (sucess/correct).
  */
+
+/* Description: Main program start form main. */
 int main(void)
 
 {
