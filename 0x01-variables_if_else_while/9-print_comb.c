@@ -1,30 +1,23 @@
 #include <stdio.h>
+
 /**
- * 
- * main - Entry point 
- *
- * Return: Always 0 (success/correct)
+ * main - print all possible combinations of a single digit,
+ * numbers printed in assending order
+ * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-int number;
+	int n;
 
-for (number = 48; number <= 57; number++)
-{
-putchar (number);
-
-if (number == 57)
-{
-break;
-}
-
-putchar(',');
-putchar (' ');
-}
-
-putchar('\n');
-
-Return (0);
-
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+		if (n != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
