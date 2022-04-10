@@ -4,6 +4,9 @@
 
 /**
  * Main- entry point
+
+ * Description: Print numbers and so whether it's = 0, > 5 or 
+ * < 6 and !0.
  *
  * Return: Always 0 (sucess/correct)
  */
