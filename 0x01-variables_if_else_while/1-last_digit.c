@@ -7,7 +7,8 @@
  *
  * Description: Prints a number and it's last digit along with whether its
  *last digit is 0, greater tan 5, or less than 6 and not 0.
- * Return: Always 0 (sucess/correct)
+ *
+ * Return: Always 0 (sucess/correct).
  */
 int main(void)
 
