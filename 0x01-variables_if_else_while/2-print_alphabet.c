@@ -1,16 +1,19 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
  * Description: Print the lowercase alphabet
  * Return: 0
  */
 int main(void)
 {
-int c;
+char alphabet;
 
-for (c = 0, c < 26; ++c)
-	putchar('a'+ c);
+for (alphabet = 'a' ; alphabet <= 'z' ; alphabet ++)
+{
+putchar(alphabet);
+}
+
 putchar('\n');
 
 return (0);
