@@ -1,15 +1,31 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+ * _strcat - concatenates two strings
+ * @dest: pointer destination
+ * @src: pointer source
+ * Return: dest
+*/
+
+char *_strcat(char *dest, char *src)
 {
+int i,j;
 
-
-
-return (0);
+i = 0;
+while (dest[i] != '\0')
+{
+	i++;
 }
+
+j = 0;
+while (src[j] != '\0')
+{
+	dest[i] = src[j];
+	i++;
+	j++;
+}
+
+dest[i] = '\0';
+
+return (dest);
+}
+
