@@ -2,8 +2,8 @@
 
 /**
   * _pow_recursion - Calcate the expontient of a number
-  * @x : base
-  * @y : expontient
+  * @x: base
+  * @y: expontient
   * Return: int
   */
 
