@@ -1,21 +1,17 @@
 #include <stdio.h>
 
 /**
-  * main - print all arguments received
-  * @argc: argument counter
-  * @argv: argument vector
-  * Return: 0
-  */
-
+ * main - prints all arguments it receives
+ * @argc: n args
+ * @argv: arr args
+ * Return: 0
+ */
 int main(int argc, char *argv[])
 {
 	int i;
-	
+
 	for (i = 0; i < argc; i++)
-	{
 		printf("%s\n", argv[i]);
-	}
-	
 	return (0);
 }
 
