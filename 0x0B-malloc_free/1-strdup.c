@@ -17,12 +17,16 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	/*checking length of str*/
-	while (str[str_position != '\0'])
-		str_position++;
-	str-position++;
+	while (str[str_position] != '\0')
+    {
+        str_position++;
+    }
+
+
+	str_position++;
 
 	/*malloc allocation*/
-	buffer = (char *) malloc(sizeof(char) * str_position;
+	buffer = (char *) malloc(sizeof(char) * str_position);
 
 	if (buffer == NULL)
 	{
@@ -33,13 +37,13 @@ char *_strdup(char *str)
 
 	for (str_position = 0; str[str_position] != '\0'; str_position++)
 	{
-		buffer[buffer_position] = str[str_position]
+		buffer[buffer_position] = str[str_position];
 		buffer_position++;
 	}
 	buffer_position++;
 
 	buffer[buffer_position] = '\0';
-	
+
 	return (buffer);
 
 }
