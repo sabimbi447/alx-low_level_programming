@@ -28,7 +28,8 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	unsigned int l1, l2;
-	char *conc, *tmp;
+	char *conc;
+	int i, j;
 
 	if (!s1)
 		s1 = "";
@@ -44,13 +45,21 @@ char *str_concat(char *s1, char *s2)
 	if (!conc)
 		return (0);
 
-	tmp = conc;
-	while (*s1)
-		*tmp++ = *s1++;
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		conc[i] = s1[i];
+	}
+	
+	i = 0;
+	for (j = l1 + 1; s2[i] != '\0'; j++)
+	{
+		conc[j] = s2[i];
+		i++;
+	}
 
-	while ((*tmp++ = *s2++))
-		;
+	l1 = _strlen(conc);
+
+	conc[l1 + 1] = '\0';
+
 
 	return (conc);
-}
-
