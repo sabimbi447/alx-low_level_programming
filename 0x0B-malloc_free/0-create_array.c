@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+  * create_array - array to create a string of character
+  * @size: number elements array
+  * @c: char
+  * Return: returns a pointer to the array
+  */
+
 char *create_array(unsigned int size, char c)
 {	
 	char *ptr;
