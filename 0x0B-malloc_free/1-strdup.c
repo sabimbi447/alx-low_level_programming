@@ -18,11 +18,9 @@ char *_strdup(char *str)
 	}
 	/*checking length of str*/
 	while (str[str_position] != '\0')
-    {
-        str_position++;
-    }
-
-
+	{
+		str_position++;
+	}
 	str_position++;
 
 	/*malloc allocation*/
