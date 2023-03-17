@@ -1,2 +1,1 @@
-# Doubly lined lists repository
-
+# Double linked lists
